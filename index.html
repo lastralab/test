@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <title>Product Inventory</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Product Inventory</h1>
+        <form id="productForm">
+            <div class="form-group">
+                <label for="productName">Product Name</label>
+                <input type="text" class="form-control" id="productName" name="productName" required>
+            </div>
+            <div class="form-group">
+                <label for="quantityInStock">Quantity in Stock</label>
+                <input type="number" class="form-control" id="quantityInStock" name="quantityInStock" required>
+            </div>
+            <div class="form-group">
+                <label for="pricePerItem">Price per Item</label>
+                <input type="number" class="form-control" id="pricePerItem" name="pricePerItem" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <br /><br />
+        <h2>Submitted Products</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Quantity in Stock</th>
+                    <th>Price per Item</th>
+                    <th>Datetime Submitted</th>
+                    <th>Total Value</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="productTable">
+                <!-- Data will be inserted here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://app.magento.test/test/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+[
+    {
+        "productName": "product1",
+        "quantityInStock": "111",
+        "pricePerItem": "12",
+        "datetimeSubmitted": "2024-06-25 18:00:11"
+    },
+    {
+        "productName": "product2",
+        "quantityInStock": "222",
+        "pricePerItem": "13",
+        "datetimeSubmitted": "2024-06-25 18:00:22"
+    }
+]
